@@ -16,3 +16,12 @@ test('Should be null', () => {
 test('Should be falsy', () => {
   expect(functions.isNull()).toBeFalsy();
 })
+
+// toEqual is better used for Objects & Arrays
+test('User should be Me', () => {
+  expect(functions.createUser()).toEqual({
+    firstName: 'Chris',
+    lastName: 'McAnally',
+    username: 'cmcanally',
+  })
+})
