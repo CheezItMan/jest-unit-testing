@@ -4,7 +4,7 @@
   "description": "A Unit Testing Tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/CheezItMan/jest-unit-testing/issues"
   },
-  "homepage": "https://github.com/CheezItMan/jest-unit-testing#readme"
+  "homepage": "https://github.com/CheezItMan/jest-unit-testing#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
+  }
 }
