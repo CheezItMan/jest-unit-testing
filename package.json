@@ -1,0 +1,24 @@
+{
+  "name": "jest-unit-testing",
+  "version": "1.0.0",
+  "description": "A Unit Testing Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CheezItMan/jest-unit-testing.git"
+  },
+  "keywords": [
+    "JEST",
+    "Unit",
+    "testing"
+  ],
+  "author": "Chris McAnally",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheezItMan/jest-unit-testing/issues"
+  },
+  "homepage": "https://github.com/CheezItMan/jest-unit-testing#readme"
+}
